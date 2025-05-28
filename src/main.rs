@@ -11,7 +11,7 @@ use std::time::{Instant, Duration};
 use std::error::Error;
 
 #[derive(Parser, Debug)]
-#[clap(author="Shon Paz", version="1.0", about="Interactive benchmark tool for S3 operations")]
+#[clap(author="Giorgio Zoppi", version="1.0", about="Interactive benchmark tool for S3 operations")]
 struct Args {
     #[clap(short = 'e', long, help = "Endpoint URL for S3 object storage")]
     endpoint_url: String,
